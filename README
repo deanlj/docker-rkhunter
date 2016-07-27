@@ -1,0 +1,8 @@
+Build:
+docker build -t rkhunter .
+
+Run:
+docker run --rm -v $PWD:/data rkhunter -c
+
+Question to verify:
+Is this checking local FS or docker container?
